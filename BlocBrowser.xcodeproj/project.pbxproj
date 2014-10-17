@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		EF80DF4A19EEA294002F4F81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF80DF4919EEA294002F4F81 /* main.m */; };
 		EF80DF4D19EEA294002F4F81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF80DF4C19EEA294002F4F81 /* AppDelegate.m */; };
-		EF80DF5019EEA294002F4F81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF80DF4F19EEA294002F4F81 /* ViewController.m */; };
-		EF80DF5319EEA294002F4F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF80DF5119EEA294002F4F81 /* Main.storyboard */; };
 		EF80DF5519EEA294002F4F81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF80DF5419EEA294002F4F81 /* Images.xcassets */; };
-		EF80DF5819EEA294002F4F81 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF80DF5619EEA294002F4F81 /* LaunchScreen.xib */; };
 		EF80DF6419EEA294002F4F81 /* BlocBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF80DF6319EEA294002F4F81 /* BlocBrowserTests.m */; };
+		EF80DF6F19EFC44A002F4F81 /* BLCWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF80DF6E19EFC44A002F4F81 /* BLCWebBrowserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +30,12 @@
 		EF80DF4919EEA294002F4F81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF80DF4B19EEA294002F4F81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF80DF4C19EEA294002F4F81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF80DF4E19EEA294002F4F81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EF80DF4F19EEA294002F4F81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EF80DF5219EEA294002F4F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF80DF5419EEA294002F4F81 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EF80DF5719EEA294002F4F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EF80DF5D19EEA294002F4F81 /* BlocBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF80DF6219EEA294002F4F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF80DF6319EEA294002F4F81 /* BlocBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocBrowserTests.m; sourceTree = "<group>"; };
+		EF80DF6D19EFC44A002F4F81 /* BLCWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCWebBrowserViewController.h; sourceTree = "<group>"; };
+		EF80DF6E19EFC44A002F4F81 /* BLCWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCWebBrowserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +78,10 @@
 			isa = PBXGroup;
 			children = (
 				EF80DF4B19EEA294002F4F81 /* AppDelegate.h */,
+				EF80DF6D19EFC44A002F4F81 /* BLCWebBrowserViewController.h */,
+				EF80DF6E19EFC44A002F4F81 /* BLCWebBrowserViewController.m */,
 				EF80DF4C19EEA294002F4F81 /* AppDelegate.m */,
-				EF80DF4E19EEA294002F4F81 /* ViewController.h */,
-				EF80DF4F19EEA294002F4F81 /* ViewController.m */,
-				EF80DF5119EEA294002F4F81 /* Main.storyboard */,
 				EF80DF5419EEA294002F4F81 /* Images.xcassets */,
-				EF80DF5619EEA294002F4F81 /* LaunchScreen.xib */,
 				EF80DF4719EEA294002F4F81 /* Supporting Files */,
 			);
 			path = BlocBrowser;
@@ -199,8 +193,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF80DF5319EEA294002F4F81 /* Main.storyboard in Resources */,
-				EF80DF5819EEA294002F4F81 /* LaunchScreen.xib in Resources */,
 				EF80DF5519EEA294002F4F81 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF80DF5019EEA294002F4F81 /* ViewController.m in Sources */,
 				EF80DF4D19EEA294002F4F81 /* AppDelegate.m in Sources */,
 				EF80DF4A19EEA294002F4F81 /* main.m in Sources */,
+				EF80DF6F19EFC44A002F4F81 /* BLCWebBrowserViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +234,6 @@
 			targetProxy = EF80DF5E19EEA294002F4F81 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EF80DF5119EEA294002F4F81 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF80DF5219EEA294002F4F81 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EF80DF5619EEA294002F4F81 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF80DF5719EEA294002F4F81 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EF80DF6519EEA294002F4F81 /* Debug */ = {

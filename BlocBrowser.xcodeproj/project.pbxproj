@@ -12,6 +12,7 @@
 		EF80DF5519EEA294002F4F81 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF80DF5419EEA294002F4F81 /* Images.xcassets */; };
 		EF80DF6419EEA294002F4F81 /* BlocBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF80DF6319EEA294002F4F81 /* BlocBrowserTests.m */; };
 		EF80DF6F19EFC44A002F4F81 /* BLCWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF80DF6E19EFC44A002F4F81 /* BLCWebBrowserViewController.m */; };
+		EF80DF7219F271C7002F4F81 /* BLCAwesomeFloatingToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = EF80DF7119F271C7002F4F81 /* BLCAwesomeFloatingToolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		EF80DF6319EEA294002F4F81 /* BlocBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocBrowserTests.m; sourceTree = "<group>"; };
 		EF80DF6D19EFC44A002F4F81 /* BLCWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCWebBrowserViewController.h; sourceTree = "<group>"; };
 		EF80DF6E19EFC44A002F4F81 /* BLCWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCWebBrowserViewController.m; sourceTree = "<group>"; };
+		EF80DF7019F271C7002F4F81 /* BLCAwesomeFloatingToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCAwesomeFloatingToolbar.h; sourceTree = "<group>"; };
+		EF80DF7119F271C7002F4F81 /* BLCAwesomeFloatingToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCAwesomeFloatingToolbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				EF80DF4B19EEA294002F4F81 /* AppDelegate.h */,
 				EF80DF6D19EFC44A002F4F81 /* BLCWebBrowserViewController.h */,
 				EF80DF6E19EFC44A002F4F81 /* BLCWebBrowserViewController.m */,
+				EF80DF7019F271C7002F4F81 /* BLCAwesomeFloatingToolbar.h */,
+				EF80DF7119F271C7002F4F81 /* BLCAwesomeFloatingToolbar.m */,
 				EF80DF4C19EEA294002F4F81 /* AppDelegate.m */,
 				EF80DF5419EEA294002F4F81 /* Images.xcassets */,
 				EF80DF4719EEA294002F4F81 /* Supporting Files */,
@@ -214,6 +219,7 @@
 				EF80DF4D19EEA294002F4F81 /* AppDelegate.m in Sources */,
 				EF80DF4A19EEA294002F4F81 /* main.m in Sources */,
 				EF80DF6F19EFC44A002F4F81 /* BLCWebBrowserViewController.m in Sources */,
+				EF80DF7219F271C7002F4F81 /* BLCAwesomeFloatingToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

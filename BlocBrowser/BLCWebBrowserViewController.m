@@ -61,6 +61,8 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:self.activityIndicator];
     // Do any additional setup after loading the view.
     
+    self.awesomeToolbar.frame = CGRectMake(20, 220, 280, 60);
+    
     [self showAlert];
 }
 
@@ -84,7 +86,7 @@
     self.textField.frame = CGRectMake(0, 0, width, itemHeight);
     self.webview.frame = CGRectMake(0, CGRectGetMaxY(self.textField.frame), width, browserHeight);
     
-    self.awesomeToolbar.frame = CGRectMake(20, 220, 280, 60);
+
 }
 
 - (void) resetWebView {
@@ -206,6 +208,10 @@
     if (CGRectContainsRect(self.view.bounds, potentialNewFrame)) {
         toolbar.frame = potentialNewFrame;
     }
+}
+
+- (void) floatingToolbar:(BLCAwesomeFloatingToolbar *)toolbar didTryToResizeWithScale:(CGSize)scale {
+    
 }
 
 @end
